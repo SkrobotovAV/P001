@@ -29,22 +29,21 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 */
-project(':common'){
+subprojects{
     apply plugin: 'java'
+}
+
+project(':common'){
 }
 
 project (':server-ui'){
-    apply plugin: 'java'
 }
 
 project (':server-core'){
-    apply plugin: 'java'
 }
 
 project (':tracker-ui'){
-    apply plugin: 'java'
 }
 
 project (':tracker-core'){
-    apply plugin: 'java'
 }
